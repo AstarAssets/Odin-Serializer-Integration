@@ -1,0 +1,13 @@
+{
+    "name": "com.astarbr.odin-serializer-integration",
+    "version": "1.0.0",
+    "displayName": "Odin Serializer Integration",
+    "description": "Integration of the open-source Odin Serializer for AstarBR Essential Tools.",
+    "unity": "2021.3",
+    "author": {
+        "name": "AstarBR",
+        "email": "support@astarbr-assets.store",
+        "url": "https://noto.li/v7yftV"
+    },
+    "dependencies": {}
+}
