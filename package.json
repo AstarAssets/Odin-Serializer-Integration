@@ -1,13 +1,24 @@
 {
-    "name": "com.astarbr.odin-serializer-integration",
-    "version": "1.0.0",
-    "displayName": "Odin Serializer Integration",
-    "description": "Integration of the open-source Odin Serializer for AstarBR Essential Tools.",
-    "unity": "2021.3",
-    "author": {
-        "name": "AstarAssets",
-        "email": "support@astarbr-assets.store",
-        "url": "https://noto.li/v7yftV"
-    },
-    "dependencies": {}
+  "name": "com.astarbr.odin-serializer-integration",
+  "version": "1.0.0",
+  "displayName": "Odin Serializer Integration",
+  "description": "Unity Package Manager integration of the open-source Odin Serializer by Sirenix. Maintained by AstarAssets as a required dependency for Essential Tools.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://astarassets.github.io/EssentialToolsAPI/",
+  "changelogUrl": "https://github.com/AstarAssets/Odin-Serializer-Integration/releases",
+  "licensesUrl": "https://github.com/TeamSirenix/odin-serializer/blob/master/LICENSE",
+  "author": {
+    "name": "AstarAssets",
+    "email": "support@astarbr-assets.store",
+    "url": "https://noto.li/v7yftV"
+  },
+  "keywords": [
+    "serializer",
+    "odin",
+    "sirenix",
+    "serialization",
+    "upm"
+  ],
+  "dependencies": {}
 }
