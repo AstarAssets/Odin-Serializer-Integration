@@ -1,47 +1,76 @@
-Odin Serializer Integration — UPM
+# Odin Serializer Integration — UPM
 
-Unity Package Manager integration for Odin Serializer by Sirenix, maintained by AstarAssets as a required dependency for our Unity assets.
+**UPM-compatible integration of [Odin Serializer](https://github.com/TeamSirenix/odin-serializer) for Unity, maintained by [AstarAssets](https://noto.li/v7yftV) as a required dependency for Essential Tools.**
 
+> ⚠️ This is not a standalone package. It is designed to be installed automatically by AstarAssets products. Manual installation is also supported.
 
-Overview
-This repository provides a UPM-compatible wrapper for Odin Serializer, allowing it to be installed directly through Unity's Package Manager via a Git URL. It is intended for use as a dependency of AstarAssets products and is not a standalone tool.
-Odin Serializer is a fast, cross-platform, open-source serializer built for the Unity engine — this package simply makes it consumable via UPM without any manual setup.
+---
 
-Requirements
-RequirementVersionUnity2021.3 or newer.NETStandard 2.1+
+## 📋 Requirements
 
-Installation
-This package is typically installed automatically by AstarAssets products through their setup wizard.
-If you need to install it manually, follow the steps below:
-Via Unity Package Manager (Git URL)
+| Requirement | Minimum Version |
+|-------------|----------------|
+| Unity | `2021.3 LTS` |
+| .NET Standard | `2.1` |
 
-Open Unity and go to Window → Package Manager
-Click the + button in the top-left corner
-Select Add package from Git URL...
-Paste the following URL and click Add:
+---
 
+## 📦 Installation
+
+### Automatic (Recommended)
+
+This package is installed automatically by the **Essential Tools Setup Wizard** when setting up any AstarAssets product.
+
+### Manual — Unity Package Manager
+
+1. Open Unity and navigate to **Window → Package Manager**
+2. Click the **`+`** button in the top-left corner
+3. Select **Add package from Git URL...**
+4. Enter the URL below and click **Add**
+
+```
 https://github.com/AstarAssets/Odin-Serializer-Integration.git
+```
 
-About Odin Serializer
-Odin Serializer is developed and maintained by Sirenix and is available open-source under the Apache 2.0 license.
+---
 
-🔗 Official Repository
-📄 Documentation
+## 🔎 About Odin Serializer
 
-AstarAssets does not own or maintain Odin Serializer itself. This repository only provides the UPM manifest wrapper required for package resolution.
+Odin Serializer is a fast, cross-platform, open-source serializer developed and maintained by [Sirenix](https://sirenix.net), available under the **Apache 2.0** license.
 
-Support
-For issues related to this UPM integration, please contact AstarAssets support:
+This repository provides only the UPM manifest wrapper (`package.json`) required for Unity Package Manager resolution. AstarAssets does not own or maintain Odin Serializer.
 
-📧 support@astarbr-assets.store
-🌐 AstarAssets Website
-📖 Essential Tools Documentation
+| Resource | Link |
+|----------|------|
+| Official Repository | [TeamSirenix/odin-serializer](https://github.com/TeamSirenix/odin-serializer) |
+| Supported Types Docs | [odininspector.com](https://odininspector.com/tutorials/using-odin-serializer/supported-types) |
+| License | [Apache 2.0](https://github.com/TeamSirenix/odin-serializer/blob/master/LICENSE) |
 
-For issues with Odin Serializer itself, please refer to the official Sirenix repository.
+---
 
-License
-Odin Serializer is licensed under the Apache License 2.0. See the LICENSE file in the original repository for full terms.
+## 🛠 Support
 
-<p align="center">
-  Maintained by <strong>AstarAssets</strong> · Made for Unity developers
-</p>
+For issues related to this UPM integration or AstarAssets products, reach out through the channels below.
+
+| Channel | Link |
+|---------|------|
+| 📧 Email | [support@astarbr-assets.store](mailto:support@astarbr-assets.store) |
+| 🌐 Website | [AstarAssets](https://noto.li/v7yftV) |
+| 📖 Documentation | [Essential Tools API](https://astarassets.github.io/EssentialToolsAPI/) |
+
+For bugs or issues in Odin Serializer itself, please use the [Sirenix official issue tracker](https://github.com/TeamSirenix/odin-serializer/issues).
+
+---
+
+## 📄 License
+
+Odin Serializer is licensed under the **Apache License 2.0**.
+See the full license in the [original repository](https://github.com/TeamSirenix/odin-serializer/blob/master/LICENSE).
+
+---
+
+<div align="center">
+
+Maintained with ♥ by **[AstarAssets](https://noto.li/v7yftV)** · Built for Unity Developers
+
+</div>
